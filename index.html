@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+    <script src="https://kit.fontawesome.com/1c6ecaaa21.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <input type="checkbox" id="checkbox-cover">
+    <input type="checkbox" id="checkbox-page1">
+    <input type="checkbox" id="checkbox-page2">
+    <input type="checkbox" id="checkbox-page3">
+    <input type="checkbox" id="checkbox-page4">
+    <div class="book">
+        <div class="cover">
+            <label for="checkbox-cover"></label>
+        </div>
+        <div class="page" id="page1">
+            <div class="front-page">
+                <p>When I was child, people used to tell me that angels existed. <br> <br>I always thought that
+                    angels
+                    really<br> existed..?</p>
+                <label class="next" for="checkbox-page1"><i class="fas fa-chevron-right"></i></label>
+            </div>
+            <div class="back-page">
+                <img src="public/nicolepg1.jpeg">
+                <label class="prev" for="checkbox-page1"><i class="fas fa-chevron-left"></i></label>
+            </div>
+        </div>
+        <div class="page" id="page2">
+            <div class="front-page">
+                <p> I never thought<br> that life would introduce me to an angel.<br><br>And that angel is so
+                    beautiful
+                    & lovely <br> 👈🏻👈🏻👈🏻</p>
+                <label class="next" for="checkbox-page2"><i class="fas fa-chevron-right"></i></label>
+            </div>
+            <div class="back-page">
+                <img src="public/nicolepg2.jpeg">
+                <label class="prev" for="checkbox-page2"><i class="fas fa-chevron-left"></i></label>
+            </div>
+        </div>
+        <div class="page" id="page3">
+            <div class="front-page">
+                <p>I pray to God that our friendship <br> reamins like this🤝🏻 <br><br>And trust reamain
+                    <br>between us
+                    forever 💖<br><br> Happy Birthday My Queen👸🏻...
+                </p>
+            </div>
+        </div>
+        <div class="back-cover"></div>
+    </div>
+    <audio controls autoplay src="public/birthdayssong.mp3"></audio>
+</body>
+
+</html>
